@@ -18,7 +18,7 @@ div {
     border-radius: 15px;
     padding: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
+    max-width: -webkit-fill-available;
     width: 90%;
     animation: fadeIn 0.5s; /* Animation on load */
 }
