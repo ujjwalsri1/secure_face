@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Web3 from "web3";
 import { useNavigate } from "react-router-dom";
-
+import './styles.css';
 const Signup = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
