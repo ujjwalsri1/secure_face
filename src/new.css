@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif; /* Keep the font-family */
+    background-color: #f0f4f8; /* Light background for contrast */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Optional, can be removed based on your layout needs */
+    justify-content: center; /* Optional, can be removed */
+    align-items: center; /* Optional, can be removed */
+    height: 100vh; /* Full viewport height */
+    transition: background-color 0.5s; /* Smooth background transition */
+}
+
+div {
+    background: none; /* Remove gradient background */
+    color: black; /* Set text color to black or any desired color */
+    border-radius: 0; /* Remove border radius */
+    padding: 0; /* Remove padding */
+    box-shadow: none; /* Remove box shadow */
+    width: 100%; /* Full width */
+    animation: none; /* Remove animation */
+}
+
+/* Additional styles for the iframe */
+iframe {
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height of the viewport */
+    border: none; /* No border */
+}
