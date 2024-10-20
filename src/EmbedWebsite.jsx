@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
-
+import './new.css';
 const EmbedWebsite = () => {
     const navigate = useNavigate(); // Hook to access the navigate instance
     const handleLogout = () => {
